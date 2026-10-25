@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PawHaven | Adoption Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <a href="index.html" class="logo">🐾 PawHaven</a>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="pets.html">Find a Pet</a>
+        <a href="adoption.html" class="active">Adopt</a>
+        <a href="account.html">Account</a>
+    </nav>
+</header>
+
+<main>
+    <section class="page-banner">
+        <p class="eyebrow">A NEW BEGINNING</p>
+        <h1>Start your adoption journey</h1>
+        <p>Tell us a little about yourself and the pet you hope to welcome home.</p>
+    </section>
+
+    <section class="form-section">
+        <div class="form-intro">
+            <h2>One application, a lifetime of love.</h2>
+            <p>
+                Adoption is a commitment. Please provide accurate information
+                so you can prepare for your new companion.
+            </p>
+
+            <div class="notice">
+                <strong>Before you apply</strong>
+                <p>Make sure you have enough time, space, and resources to care for a pet.</p>
+            </div>
+        </div>
+
+        <form class="form-card" action="#" method="post">
+            <h2>Adoption Application</h2>
+
+            <div class="form-group">
+                <label for="full-name">Full Name</label>
+                <input
+                    type="text"
+                    id="full-name"
+                    name="full-name"
+                    autocomplete="name"
+                    placeholder="Enter your full name"
+                    required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    autocomplete="email"
+                    placeholder="you@example.com"
+                    required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    autocomplete="tel"
+                    placeholder="Enter your phone number"
+                    required>
+            </div>
+
+            <div class="form-group">
+                <label for="pet">Which pet would you like to adopt?</label>
+                <select id="pet" name="pet" required>
+                    <option value="">Select a pet</option>
+                    <option value="Coco">Coco</option>
+                    <option value="Milo">Milo</option>
+                    <option value="Bruno">Bruno</option>
+                    <option value="Luna">Luna</option>
+                    <option value="Rocky">Rocky</option>
+                    <option value="Daisy">Daisy</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="home">Type of Home</label>
+                <select id="home" name="home" required>
+                    <option value="">Select your home type</option>
+                    <option value="Apartment">Apartment</option>
+                    <option value="Independent House">Independent House</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="experience">Have you cared for a pet before?</label>
+                <select id="experience" name="experience" required>
+                    <option value="">Select an option</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No, this will be my first pet</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="reason">Why would you like to adopt?</label>
+                <textarea
+                    id="reason"
+                    name="reason"
+                    rows="4"
+                    placeholder="Tell us why you want to adopt a pet..."
+                    required></textarea>
+            </div>
+
+            <label class="checkbox-label">
+                <input type="checkbox" name="commitment" required>
+                I understand that adopting a pet is a long-term responsibility.
+            </label>
+            <P>
+                
+            </P>
+
+            <button type="submit" class="button full-button">Submit Application</button>
+        </form>
+    </section>
+</main>
+
+<footer class="footer">
+    <p>🐾 PawHaven — Every paw deserves a home.</p>
+    <p>Made with love for animals.</p>
+</footer>
+
+</body>
+</html>
